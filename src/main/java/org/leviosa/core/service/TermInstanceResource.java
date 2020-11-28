@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.dgrf.cms.core.service;
+package org.leviosa.core.service;
 
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
@@ -16,7 +16,7 @@ import org.leviosa.bl.service.CMSService;
 
 import org.hedwig.cms.dto.TermInstanceDTO;
 import org.hedwig.cms.constants.CMSServicePaths;
-import org.dgrf.cms.core.service.utils.JSONParseAndDBConn;
+import org.leviosa.core.service.utils.JSONParseAndDBConn;
 
 /**
  * REST Web Service

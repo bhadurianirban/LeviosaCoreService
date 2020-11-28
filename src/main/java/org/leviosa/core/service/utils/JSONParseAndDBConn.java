@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.dgrf.cms.core.service.utils;
+package org.leviosa.core.service.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -15,7 +15,7 @@ import org.hedwig.cloud.client.DataConnClient;
 import org.hedwig.cloud.dto.HedwigAuthCredentials;
 import org.hedwig.cloud.dto.DataConnDTO;
 import org.hedwig.cloud.response.HedwigResponseCode;
-import org.dgrf.cms.core.service.TermResource;
+import org.leviosa.core.service.TermResource;
 import org.hedwig.cms.dto.CMSDTO;
 
 /**

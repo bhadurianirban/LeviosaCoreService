@@ -46,7 +46,7 @@
             <version>${jersey.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.dgrf</groupId>
+            <groupId>org.leviosa</groupId>
             <artifactId>LeviosaCore</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

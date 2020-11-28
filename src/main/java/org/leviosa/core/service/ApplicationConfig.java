@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.dgrf.cms.core.service;
+package org.leviosa.core.service;
 
 import java.util.Set;
 import javax.ws.rs.core.Application;
@@ -29,12 +29,12 @@ public class ApplicationConfig extends Application {
      * If required, comment out calling this method in getClasses().
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
-        resources.add(org.dgrf.cms.core.service.BheuResource.class);
-        resources.add(org.dgrf.cms.core.service.MediaResource.class);
-        resources.add(org.dgrf.cms.core.service.MenuResource.class);
-        resources.add(org.dgrf.cms.core.service.TermInstanceResource.class);
-        resources.add(org.dgrf.cms.core.service.TermMetaResource.class);
-        resources.add(org.dgrf.cms.core.service.TermResource.class);
+        resources.add(org.leviosa.core.service.BheuResource.class);
+        resources.add(org.leviosa.core.service.MediaResource.class);
+        resources.add(org.leviosa.core.service.MenuResource.class);
+        resources.add(org.leviosa.core.service.TermInstanceResource.class);
+        resources.add(org.leviosa.core.service.TermMetaResource.class);
+        resources.add(org.leviosa.core.service.TermResource.class);
        
     }
     

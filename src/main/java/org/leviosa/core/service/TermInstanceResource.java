@@ -15,7 +15,7 @@ import javax.ws.rs.core.MediaType;
 import org.leviosa.bl.service.CMSService;
 
 import org.hedwig.cms.dto.TermInstanceDTO;
-import org.hedwig.cms.constants.CMSServicePaths;
+import org.hedwig.leviosa.constants.CMSServicePaths;
 import org.leviosa.core.service.utils.JSONParseAndDBConn;
 
 /**

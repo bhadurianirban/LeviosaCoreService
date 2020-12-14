@@ -13,7 +13,7 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.MediaType;
 import org.leviosa.bl.service.CMSService;
-import org.hedwig.cms.constants.CMSServicePaths;
+import org.hedwig.leviosa.constants.CMSServicePaths;
 import org.leviosa.core.service.utils.JSONParseAndDBConn;
 import org.hedwig.cms.dto.TermDTO;
 
